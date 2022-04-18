@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+   background-color: rgb(15, 89, 131);
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d8d8d8;
+    width: 350px;
+    margin: 0 auto 20px;
+    border-radius: 30px; 
+    border: 4px solid transparent;
+}
+h1:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    border: 4px solid #00d9ff;
+    color: #00d9ff;
+    box-shadow: 0 0 35px #00d9ff, 0 0 15px #00d9ff inset;
+    text-shadow: 0 0 10px #00d9ff, 0 0 3px #00d9ff;
+}
+.quadrado{
+   text-align: center;
+   width: 50px;
+   height: 50px;
+   background-color: #d8d8d8;
+   display: inline-block;
+   align-items: center;
+   justify-content: center;
+   padding: 40px;
+   font-size: 60px;
+   margin: 5px;
+   cursor: pointer;
+   color: #d8d8d8;
+}
+.jogador, .vencedor{
+   font-size: 20px;
+   margin-top: 15px;
+}
+button{
+   margin-top: 10px;
+   width: 100px;
+   height: 30px;
+   background-color: #d8d8d8;
+   cursor: pointer;
+   border-radius: 30px;
+
+}
